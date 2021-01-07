@@ -9,3 +9,10 @@ In order to perform such text analysis tasks, this project firstly extracts text
 2. For each day (i.e., sheet in your excel file), calculate the top 100 frequent unigram and top-100 frequent bigrams according to the structure of the sample_100uni.txt and sample_100bi.txt. If you have less than 100 bigrams for a particular day, just include the top-n bigrams for that day (n<100).
 
 3. Generate the sparse representation (i.e., doc-term matrix) of the excel file according to the structure of the sample_countVec.txt
+
+The output of this processing is saved in the files:
+
+- vocab.txt
+- countVec.txt
+- 100uni.txt
+- 100bi.txt
